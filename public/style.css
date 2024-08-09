@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family: Pix;
+  src: url(./Pixolletta8px.ttf);
+}
+
+:root {
+  font: 12px Pix;
+  color: rgba(255, 255, 255);
+  background-color: #212529;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+a {
+  color: #394a50;
+}
+
+.container {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 512px;
+  height: 512px;
+}
